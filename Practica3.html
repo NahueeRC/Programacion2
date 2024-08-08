@@ -22,10 +22,10 @@
 <input type="email" name="email" size="50">
 <br>
 <label for="contraseña 1">contrasenia 1: </label>
-<input type="password" name="contraseña 1" size="50">
+<input type="password" name="contraseña1" size="50">
 <br>
 <label for="contraseña 2">contrasenia 2: </label>
-<input type="password" name="contraseña 2" size="50">
+<input type="password" name="contraseña2" size="50">
 <br>
 <input type="submit" value="Enviar">
 </form>
@@ -57,7 +57,7 @@
     <input type="email" name="email" size="50">
     <br>
     <label for="contraseña">contrasenia: </label>
-    <input type="password" name="contraseña 1" size="50">
+    <input type="password" name="contraseña1" size="50">
     <br>
 
     <input type="submit" value="Enviar">
@@ -106,20 +106,18 @@
 <br>
 
 <form action="" method="POST" target="">
-    <h2>Paises America</h2>
-    <select name="America">
+    <h2>Seleccion</h2>
+    <select>
+        <optgroup label="America">
         <option>Argentina</option>
         <option>Brasil</option>
         <option>Colombia</option>
-    </select>
-
-    <br>
-
-    <h2>Paises Europa</h2>
-    <select name="Europa">
+        </optgroup>
+        <optgroup label="Europa">
         <option>Alemania</option>
         <option>Belgica</option>
         <option>Croacia</option>
+        </optgroup>
     </select>
   
 </form>
