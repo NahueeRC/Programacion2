@@ -41,9 +41,14 @@ li:hover{
     background-color: rgba(0,0,0,0.1);
 }
 
-a{
+li a{
     font-weight: bold;
     color: orange;
+    text-decoration: underline;
+}
+
+a{
+    font-weight: bold;
     text-decoration: underline;
 }
 
