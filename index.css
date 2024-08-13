@@ -42,9 +42,7 @@ li:hover{
 }
 
 li a{
-    font-weight: bold;
     color: orange;
-    text-decoration: underline;
 }
 
 a{
